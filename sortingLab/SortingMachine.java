@@ -37,7 +37,7 @@ public class SortingMachine {
             e.printStackTrace();
         }
 
-        System.out.print("Choose the search algorithm. ");
+        System.out.print("Choose the sorting algorithm. ");
 
         String searchEngine = new Scanner(System.in).nextLine();
 
