@@ -108,7 +108,7 @@ public class SearchingMachine {
 
         System.out.println("SEARCH RESULT");
 
-        long startTime = System.currentTimeMillis();
+        double startTime = System.currentTimeMillis();
         double[] workQuery = new double[searchingDataNum];
 
         //apply the sorting machine.
@@ -144,13 +144,13 @@ public class SearchingMachine {
         System.out.println("EFFICIENCY CALCULATION.");
         System.out.println("**************************");
 
-        long calculationTime = (endTime-startTime)/1000;
+        double calculationTime = (endTime-startTime)/1000;
         double query = 0;
         for (double ele: workQuery){
             query += ele;
         }
 
-        System.out.println("Algorithm Searching Time: " + calculationTime + "sec.");
+        System.out.println("Algorithm Searching Time: " + calculationTime + " sec.");
         System.out.println("Average work per query: " + (query / searchingDataNum)+".");
     }
 }

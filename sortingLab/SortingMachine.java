@@ -41,9 +41,9 @@ public class SortingMachine {
 
         String searchEngine = new Scanner(System.in).nextLine();
 
-        System.out.print("Starting sort your data by using " + searchEngine);
+        System.out.println("Starting sort your data by using " + searchEngine);
 
-        long start = System.currentTimeMillis();
+        double start = System.currentTimeMillis();
         SortEngine engine = null;
         switch (searchEngine){
             case "bubble sort":
@@ -73,8 +73,8 @@ public class SortingMachine {
                 break;
         }
 
-        long end = System.currentTimeMillis();
-        long times = (end - start) / 1000;
+        double end = System.currentTimeMillis();
+        double times = (end - start) / 1000;
 
         System.out.println("Data sorting Done!");
         System.out.println("***************************************************");
@@ -82,6 +82,5 @@ public class SortingMachine {
 
         System.out.println("Comparison: " + comparison + " comparison to sort your data.");
         System.out.println("Time: it takes "+ times + " sec to sort your data.");
-
     }
 }

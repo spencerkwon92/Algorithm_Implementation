@@ -10,16 +10,8 @@ public class HeapSort implements SortEngine{
     public void engine(Employee[] arr){}
 
     public void engine(Employee[] arr, int hs){
-        for (Employee ele : arr) {
-            System.out.print(ele.id + " ");
-        }
         // create maxheap.
         maxHeap(arr, hs);
-
-        for (Employee ele : arr) {
-            System.out.print(ele.id + " ");
-        }
-
         for (int i = arr.length - 1; i >= 1; i--) {
             Employee temp = arr[0];
             arr[0] = arr[i];
