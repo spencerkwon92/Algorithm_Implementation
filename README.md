@@ -18,22 +18,22 @@
 
 ---
 
-## Result.
+## Result. 
 
 1. Algorithm Implementation.
     - To implement the searching algorithms, I created methods for each searching algorithm.
 
-![Screen Shot 2022-02-13 at 11.53.12 PM.png](Algorithm%20%20fc1a6/Screen_Shot_2022-02-13_at_11.53.12_PM.png)
+![iamge1](images/Screen_Shot_2022-02-13_at_11.53.12_PM.png)
 
 - To use each sorting algorithm in the program, I created an interface to use as the outline of each sorting engine, so that each of the sorting engines implements the interface and Override abstract method in the interface.
 
-![Untitled](Algorithm%20%20fc1a6/Untitled.png)
+![Untitled](images/Untitled.png)
 
 1. Algorithm efficiency experiment.
 
 To experiment with the algorithms I created a data file that has 10000 employee information.
 
-[[Like of  sample data ****File]](https://github.com/spencerkwon92/Algorithm_Implementation/blob/main/largeData.txt) 
+[[Like of sample data File]](https://github.com/spencerkwon92/Algorithm_Implementation/blob/main/largeData.txt) 
 
 Each line has employee data in order by:
 
@@ -45,33 +45,33 @@ Among the data, I search the 5 employees by inputting the ID number to test the 
 
 I tested the searching engine with the binary search algorithm.
 
-![Untitled](Algorithm%20%20fc1a6/Untitled%201.png)
+![Untitled](images/Untitled 1.png)
 
 I tested the searching engine with the sequential search algorithm.
 
-![Untitled](Algorithm%20%20fc1a6/Untitled%202.png)
+![Untitled](images/Untitled 2.png)
 
 - Sorting Algorithm Experiment.
 
 Bubble Sort.
 
-![Screen Shot 2022-02-14 at 2.21.27 AM.png](Algorithm%20%20fc1a6/Screen_Shot_2022-02-14_at_2.21.27_AM.png)
+![Screen Shot 2022-02-14 at 2.21.27 AM.png](images/Screen_Shot_2022-02-14_at_2.21.27_AM.png)
 
 Insertion Sort.
 
-![Screen Shot 2022-02-14 at 2.20.34 AM.png](Algorithm%20%20fc1a6/Screen_Shot_2022-02-14_at_2.20.34_AM.png)
+![Screen Shot 2022-02-14 at 2.20.34 AM.png](images/Screen_Shot_2022-02-14_at_2.20.34_AM.png)
 
 Selection Sort.
 
-![Screen Shot 2022-02-14 at 2.23.17 AM.png](Algorithm%20%20fc1a6/Screen_Shot_2022-02-14_at_2.23.17_AM.png)
+![Screen Shot 2022-02-14 at 2.23.17 AM.png](images/Screen_Shot_2022-02-14_at_2.20.34_AM.png)
 
 Merge Sort.
 
-![Screen Shot 2022-02-14 at 2.24.29 AM.png](Algorithm%20%20fc1a6/Screen_Shot_2022-02-14_at_2.24.29_AM.png)
+![Screen Shot 2022-02-14 at 2.24.29 AM.png](images/Screen_Shot_2022-02-14_at_2.24.29_AM.png)
 
 Heap Sort.
 
-![Screen Shot 2022-02-14 at 2.27.49 AM.png](Algorithm%20%20fc1a6/Screen_Shot_2022-02-14_at_2.27.49_AM.png)
+![Screen Shot 2022-02-14 at 2.27.49 AM.png](images/Screen_Shot_2022-02-14_at_2.27.49_AM.png)
 
 - Result.
 
