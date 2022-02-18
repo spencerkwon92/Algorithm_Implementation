@@ -37,7 +37,7 @@ To experiment with the algorithms I created a data file that has 10000 employee 
 
 Each line has employee data in order by:
 
-                                              Name | Id | Age | Job | Hired Date
+                                 Name | Id | Age | Job | Hired Date
 
 Among the data, I search the 5 employees by inputting the ID number to test the algorithm efficiency.
 
